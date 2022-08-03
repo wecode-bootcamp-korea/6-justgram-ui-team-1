@@ -1,0 +1,226 @@
+header {
+	width: 100%;
+	height: 100px;
+	background: #fff;
+	.inner {
+		width: 1180px;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+		bottom: 50px;
+		.main_logo_box {
+			width: 33%;
+			height: 100%;
+			.main_logo_Text {
+				width: 25%;
+				height: 100%;
+				font: bold 35px Lobster;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #000;
+				.logo_Img {
+					width: 25px;
+					height: 25px;
+					margin-right: 20px;
+					position: relative;
+					top: 5px;
+				}
+			}
+		}
+		.main_search_box {
+			width: 33%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			#search {
+				width: 100%;
+				height: 40px;
+				padding-left: 50px;
+				border-radius: 10px;
+				border: none;
+				background: #eee;
+			}
+			.main_search_img {
+				width: 20px;
+				height: 20px;
+				position: relative;
+				right: 290px;
+				bottom: 0px;
+			}
+		}
+		.main_menu_box {
+			width: 33%;
+
+			#menuWeb {
+				position: relative;
+				left: 100px;
+				#gnb {
+					li {
+						float: left;
+						margin-right: 20px;
+						img {
+							width: 25px;
+							height: 25px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#feed {
+	.inner {
+		width: 1180px;
+		height: 100%;
+		padding: 100px 200px;
+		.main-feed-box {
+			border: 1px solid #ccc;
+			background: #fff;
+			.main_feed_user {
+				width: 100%;
+				height: 60px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				a {
+					display: block;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font: bold 19px/1 'apple';
+					color: #000;
+					.user-profile-picture {
+						width: 40px;
+						height: 40px;
+						margin-left: 10px;
+						margin-right: 10px;
+						padding: 1.5px;
+						border: 2px solid rgb(236, 1, 103);
+						border-radius: 50%;
+					}
+				}
+				i {
+					margin-right: 20px;
+				}
+			}
+			.main_feed_picture {
+				width: 100%;
+				height: 700px;
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+			.main_feed_menu {
+				width: 100%;
+				height: 50px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.likebutton {
+					border: none;
+					cursor: pointer;
+					background: #fff;
+					img {
+						width: 25px;
+						height: 25px;
+						margin-right: 15px;
+					}
+				}
+				.main_feed_like {
+					margin-left: 10px;
+				}
+			}
+			.main_feed_liker {
+				width: 100%;
+				height: 50px;
+				display: block;
+				display: flex;
+				align-items: center;
+				.bold {
+					font: bold 15px/1 'apple';
+				}
+				a {
+					margin-left: 5px;
+					display: block;
+					display: flex;
+					align-items: center;
+					font: bold 15px/1 'apple';
+					color: #000;
+					.user-profile-picture {
+						width: 25px;
+						height: 25px;
+						margin-right: 5px;
+						margin-left: 5px;
+						border-radius: 50%;
+					}
+				}
+			}
+			.main_feed_content {
+				width: 100%;
+				height: 100px;
+				.uploade_time {
+					margin-left: 15px;
+					color: #888;
+				}
+				.main_feed_userid {
+					margin-top: 5px;
+					margin-left: 15px;
+					margin-bottom: 5px;
+					a {
+						font: bold 15px/1 'apple';
+						color: #000;
+					}
+				}
+				.main_feed_comments_list {
+					margin-left: 15px;
+					margin-bottom: 5px;
+					color: #888;
+				}
+				.main_feed_coment_userid {
+					margin-left: 15px;
+					margin-bottom: 5px;
+					a {
+						font: bold 15px/1 'apple';
+						color: #000;
+					}
+				}
+			}
+			.main_feed_comments {
+				width: 100%;
+				height: 50px;
+				.coment_box {
+					width: 100%;
+					height: 50px;
+					input[type='text'] {
+						width: 100%;
+						height: 100%;
+						padding-left: 10px;
+						border: none;
+						border-top: 1px solid #ddd;
+					}
+				}
+				.submit_box {
+					width: 100%;
+					height: 50px;
+					input[type='submit'] {
+						background: rgba(204, 204, 204, 0);
+						font: 18px/1 'apple';
+						opacity: 0.5;
+						color: rgb(0, 134, 218);
+						border: none;
+						position: relative;
+						left: 94%;
+						bottom: 65%;
+					}
+				}
+				
+			}
+		}
+	}
+}

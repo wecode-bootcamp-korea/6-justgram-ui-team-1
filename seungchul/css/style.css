@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  opacity: 0;
+}
+
+body {
+  background: #eee;
+}
+body .inner {
+  width: 1180px;
+  height: 100%;
+  padding: 100px;
+  margin: 0 auto;
+}
+body .inner #login__page {
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+body .inner #login__page .logo__text {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+body .inner #login__page .logo__text a {
+  font: 50px Lobster;
+  color: #000;
+}
+body .inner #login__page .input__box {
+  width: 100%;
+}
+body .inner #login__page .input__box input[type=text] {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: rgb(247, 247, 247);
+}
+body .inner #login__page .input__box input[type=password] {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: rgb(247, 247, 247);
+}
+body .inner #login__page .login__btn button {
+  margin: 0 auto;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: rgb(88, 168, 254);
+  opacity: 1;
+  color: #fff;
+  font: bold 20px "apple";
+}
+body .inner #login__page .login__btn button:disabled {
+  opacity: 0.5;
+}
+body .inner #login__page .pws__lost {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+body .inner #login__page .pws__lost a {
+  text-align: center;
+  font: 15px "apple";
+  color: navy;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+}
+header .inner {
+  width: 1180px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+}
+header .inner .main_logo_box {
+  width: 33%;
+  height: 100%;
+}
+header .inner .main_logo_box .main_logo_Text {
+  width: 25%;
+  height: 100%;
+  font: bold 35px Lobster;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+header .inner .main_logo_box .main_logo_Text .logo_Img {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  position: relative;
+  top: 5px;
+}
+header .inner .main_search_box {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .inner .main_search_box #search {
+  width: 100%;
+  height: 40px;
+  padding-left: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #eee;
+}
+header .inner .main_search_box .main_search_img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 290px;
+  bottom: 0px;
+}
+header .inner .main_menu_box {
+  width: 33%;
+}
+header .inner .main_menu_box #menuWeb {
+  position: relative;
+  left: 100px;
+}
+header .inner .main_menu_box #menuWeb #gnb li {
+  float: left;
+  margin-right: 20px;
+}
+header .inner .main_menu_box #menuWeb #gnb li img {
+  width: 25px;
+  height: 25px;
+}
+
+#feed .inner {
+  width: 1180px;
+  height: 100%;
+  padding: 100px 200px;
+}
+#feed .inner .main-feed-box {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+#feed .inner .main-feed-box .main_feed_user {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#feed .inner .main-feed-box .main_feed_user a {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold 19px/1 "apple";
+  color: #000;
+}
+#feed .inner .main-feed-box .main_feed_user a .user-profile-picture {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1.5px;
+  border: 2px solid rgb(236, 1, 103);
+  border-radius: 50%;
+}
+#feed .inner .main-feed-box .main_feed_user i {
+  margin-right: 20px;
+}
+#feed .inner .main-feed-box .main_feed_picture {
+  width: 100%;
+  height: 700px;
+}
+#feed .inner .main-feed-box .main_feed_picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#feed .inner .main-feed-box .main_feed_menu {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#feed .inner .main-feed-box .main_feed_menu .likebutton {
+  border: none;
+  cursor: pointer;
+  background: #fff;
+}
+#feed .inner .main-feed-box .main_feed_menu .likebutton img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+#feed .inner .main-feed-box .main_feed_menu .main_feed_like {
+  margin-left: 10px;
+}
+#feed .inner .main-feed-box .main_feed_liker {
+  width: 100%;
+  height: 50px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+#feed .inner .main-feed-box .main_feed_liker .bold {
+  font: bold 15px/1 "apple";
+}
+#feed .inner .main-feed-box .main_feed_liker a {
+  margin-left: 5px;
+  display: block;
+  display: flex;
+  align-items: center;
+  font: bold 15px/1 "apple";
+  color: #000;
+}
+#feed .inner .main-feed-box .main_feed_liker a .user-profile-picture {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+#feed .inner .main-feed-box .main_feed_content {
+  width: 100%;
+  height: 100px;
+}
+#feed .inner .main-feed-box .main_feed_content .uploade_time {
+  margin-left: 15px;
+  color: #888;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_userid {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_userid a {
+  font: bold 15px/1 "apple";
+  color: #000;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_comments_list {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  color: #888;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid a {
+  font: bold 15px/1 "apple";
+  color: #000;
+}
+#feed .inner .main-feed-box .main_feed_comments {
+  width: 100%;
+  height: 50px;
+}
+#feed .inner .main-feed-box .main_feed_comments .coment_box {
+  width: 100%;
+  height: 50px;
+}
+#feed .inner .main-feed-box .main_feed_comments .coment_box input[type=text] {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+#feed .inner .main-feed-box .main_feed_comments .submit_box {
+  width: 100%;
+  height: 50px;
+}
+#feed .inner .main-feed-box .main_feed_comments .submit_box input[type=submit] {
+  background: rgba(204, 204, 204, 0);
+  font: 18px/1 "apple";
+  opacity: 0.5;
+  color: rgb(0, 134, 218);
+  border: none;
+  position: relative;
+  left: 94%;
+  bottom: 65%;
+}/*# sourceMappingURL=style.css.map */
