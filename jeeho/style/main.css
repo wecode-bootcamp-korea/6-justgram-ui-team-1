@@ -1,0 +1,297 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+
+}
+
+
+/* header */
+nav {
+  width: 100%;
+  height: 54px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.nav-container {
+  max-width: 1000px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+ .nav-logo {
+  width: 370px;
+  display: flex;
+  align-items: center;
+}
+
+.justgram {
+  font-family: "Lobster", cursive;
+  font-size: 21px;
+}
+
+.input-search {
+  width: 200px;
+  height: 12px;
+  padding: 7px;
+  box-sizing: content-box;
+  background-color: #fafafa;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  background-image: url('../icon/search.png');
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: 38% center;
+  text-indent: 10%;
+  font-size: 14px;
+}
+
+.input-search:focus {
+  background-position: 4% center;
+  outline: none;
+  }
+
+.input-search::placeholder, .input-search:not(:focus) {
+  text-align: center;
+  vertical-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.input-search:focus::placeholder {
+  text-align: start;
+}
+
+
+.input-search::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: center left;
+  background-image: url('../icon/cancel.png');
+  color: #8e8e8e;
+}
+
+.nav-icon {
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav img {
+  height: 22px;
+}
+
+.nav-icon-img {
+  margin-left: 20px;
+}
+
+
+
+/* main */
+main {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 40px;
+}
+
+.feeds {
+  width: 614px;
+  display: inline-block;
+}
+
+
+
+/* feed #1 */
+article {
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #DBDBDB;
+  margin-bottom: 60px;
+}
+
+header {
+  height: 60px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article-container {
+  display: flex;
+  align-items: center;
+}
+
+.img-profile {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #fafafa;
+  border-radius: 100%;
+}
+
+.userID {
+  padding-right: 10px;
+  padding-left: 14px;
+  font: 14px;
+  font-weight: bold;
+}
+
+.icon-size {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-right {
+  justify-self: end;
+}
+
+.main-image {
+  width: 612px;
+  height: 650px;
+  object-fit:cover;
+}
+
+.icons-react {
+  height: 40px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 12px;
+}
+
+.icons-left {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+
+
+/* article text data */
+.reaction {
+  padding: 0 16px;
+}
+
+.liked-people {
+  display: flex;
+  align-items: center;
+  height: 18px;
+  margin: 2px 0 8px 0;
+}
+
+.liked-people-pic {
+  display: inline-block;
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fafafa;
+  border-radius: 100%;
+}
+
+.liked-people-names {
+  display: inline-block;
+  color: #262626;
+  font-size: 14px;
+}
+
+.feed-info {
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+
+.id-bold {
+  font-weight: bold;
+}
+
+.at-tag {
+  color: #00376B;
+}
+
+.comments {
+  margin-top: 5px;
+  padding-left: 0px;
+  margin-bottom: 4px;
+}
+
+li {
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+  color: #262626;
+  font-size: 14px;
+}
+
+.comment-heart {
+  width: 12px;
+  height: 12px;
+}
+
+
+
+/* add comment section */
+.time-log {
+  margin-bottom: 8px;
+}
+
+.time-upload {
+  height: 18px;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.line {
+  border-top: 1px solid #DBDBDB;
+  width: 612px;
+}
+
+
+
+/* comment input section */
+.input-comment {
+  font-size: 14px;
+  width: 560px;
+  height: 18px;
+  padding: 28px 16px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #262626;
+}
+
+.input-comment:focus {
+outline: none;
+}
+
+.input-comment::placeholder {
+  color: #8e8e8e;
+}
+
+button.submit-comment {
+  color: #0095f6;
+  background-color: #fff;
+  border-style: none;
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.submit-comment:disabled {
+  color: #B9DFFC;
+}
+
+button.submit-comment:focus {
+  outline: none;
+}

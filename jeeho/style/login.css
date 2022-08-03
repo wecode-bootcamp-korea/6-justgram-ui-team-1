@@ -1,0 +1,106 @@
+@font-face {
+  src: url("../font/Lobster-Regular.ttf");
+  font-family: "instagram";
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.outerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+}
+
+.logoBox {
+  display: flex;
+  justify-content: center;
+  width: 175px;
+  height: 50px;
+}
+
+.logoText {
+  font-family: "instagram";
+  font-size: 48px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.idInput {
+  width: 266px;
+  height: 36px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin: 7px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.pwdInput {
+  width: 266px;
+  height: 36px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.loginBtn {
+  width: 281px;
+  height: 30px;
+  background-color: #0095f6;
+  border: 0;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px bold;
+}
+
+.loginBtn:disabled {
+  background-color: #b9dffc;
+}
+
+.loginBtn:disabled:hover {
+  cursor: default;
+}
+
+.loginBtn:enabled:hover {
+  cursor: pointer;
+}
+
+.loginBtn:enabled:focus {
+  outline: none;
+}
+
+.forgotPwdBox {
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+}
+
+.forgotPwdText {
+  text-align: end;
+  color: #00376b;
+  font-size: 12px;
+  padding-top: 35px;
+}
+
+.forgotPwdText:hover {
+  cursor: pointer;
+}
