@@ -1,0 +1,40 @@
+.header {
+}
+.logo-text {
+  font-family: "Lobster", cursive;
+  font-size: 24px;
+}
+.search {
+  justify-content: center;
+  padding: 10px 10px 10px 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.logo-size {
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-size {
+  width: 400px;
+  height: 400px;
+}
+
+.menu-size {
+  width: 20px;
+  height: 20px;
+}
