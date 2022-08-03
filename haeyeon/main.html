@@ -1,43 +1,69 @@
 <html>
-  <head>
-    <title>justgram</title>
-    <link rel="stylesheet" href="style/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="header">
-      <img class="logo-size" src="instagram.png" />
-      <span class="logo-text">Justgram</span>
-      <input class="search" placeholder="검색" />
-      <img
-        class="logo-size"
-        src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png"
-      />
-      <img
-        class="logo-size"
-        src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png"
-      />
-      <img
-        class="logo-size"
-        src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png"
-      />
+
+<head>
+  <title>justgram</title>
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="header-wrapper">
+    <div class="vertical-center"><img class="logo-size custom-margin-left" src="image/instagram.png" />
+      <span class="logo-text">| Justgram</span>
     </div>
-<img class="profile" src="profile.jpeg" />
-          <a class="id-text">onhaeye</a>
-          <div>
-            <img class="image-size" src="sea.jpeg" />
-          </div>
-          <div>
-          <img class="menu-size" src="heart-3.png" />
-          <img class="menu-size" src="chat.png" />
-          <img class="menu-size" src="send-2.png" />
-          <img class="menu-size" src="ribbon.png" /></div>
+
+    <div class="vertical-center"><input class="search" placeholder="검색" /></div>
+    <div class="vertical-center"><img class="logo-size  custom-margin-left"
+        src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png" />
+      <img class="logo-size custom-margin-left"
+        src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
+      <img class="logo-size custom-margin-left"
+        src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" />
+    </div>
+  </div>
+
+  <div class="contents-wrapper">
+    <div class="feed-container to-do">
+      <div class="feed-header">
+        <div class="vertical-center"><img class="profile" src="image/profile.jpeg" />
+          <span class="id-text">onhaeye</span>
+        </div>
+        <div>...</div>
       </div>
+
+      <div>
+        <img class="image-size" src="image/sea.jpeg" />
       </div>
-  </body>
+
+      <div class="feed-menu">
+        <div>
+          <img class="menu-size" src="image/heart-3.png" />
+          <img class="menu-size" src="image/chat.png" />
+          <img class="menu-size" src="image/send-2.png" />
+        </div>
+        <div>
+          <img class="menu-size" src="image/ribbon.png" />
+        </div>
+      </div>
+
+      <div class="feed-comment">
+        <div class="custom-margin-left custom-margin-botton"> i_hate_cucumber님 외 10명이 좋아합니다.</div>
+        <div class="custom-margin-left custom-margin-botton">
+          <div>alldayhong</div>
+          <div>따룽ㅎ ㅐ</div>
+          <div>sunshine </div>
+          <div>춥데이</div>
+          <div>42분전</div>
+        </div>
+        <div id="up-comment" class="custom-margin-left custom-margin-botton">댓글</div>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
 </html>

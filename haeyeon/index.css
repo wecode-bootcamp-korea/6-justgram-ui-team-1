@@ -1,0 +1,8 @@
+.to-do {
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}

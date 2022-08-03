@@ -1,14 +1,66 @@
-.header {
+.to-do {
+  border: 1px solid lightgray;
+  border-radius: 10px;
 }
+
+.custom-margin-left {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.custom-margin-botton {
+  margin-bottom: 10px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  border-bottom: 1px solid black;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feed-container {
+  width: 500px;
+  justify-content: center;
+}
+
+.contents-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.feed-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.feed-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.feed-comment {
+}
+
+.logo-size {
+  width: 40px;
+  height: 40px;
+}
+
 .logo-text {
   font-family: "Lobster", cursive;
-  font-size: 24px;
-}
-.search {
-  justify-content: center;
-  padding: 10px 10px 10px 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  font-size: 30px;
 }
 
 .profile {
@@ -16,25 +68,16 @@
   height: 40px;
   padding-right: 10px;
 }
-
-.logo-size {
-  width: 40px;
-  height: 40px;
-  padding-right: 20px;
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.id-text {
+  font-size: 20px;
 }
 
 .image-size {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
 }
 
 .menu-size {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
