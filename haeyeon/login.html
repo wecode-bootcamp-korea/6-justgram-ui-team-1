@@ -1,42 +1,38 @@
 <html>
-  <head>
-    <title>justgram</title>
-    <link rel="stylesheet" href="style/login.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="flex-center container">
+<head>
+  <title>justgram</title>
+  <link rel="stylesheet" href="style/login.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="flex-center container">
     <div class="login-container">
       <div class="logo-wrapper flex-center">
         <span class="logo-text">Justgram</span>
       </div>
       <div>
-        <div class="flex-center login-wrapper">
-          <input
-            id="email-input"
-            class="login-input"
-            placeholder="전화번호, 사용자 이름 또는 이메일"
-          />
+        <form id="login-form">
+          <div class="flex-center login-wrapper">
+            <input id="email-input" class="login-input" placeholder="전화번호, 사용자 이름 또는 이메일" />
+          </div>
+          <div class="flex-center login-wrapper">
+            <input id="pw-input" class="login-input" placeholder="비밀번호" />
+          </div>
+          <div class="flex-center button-wrapper">
+            <button id="push-button" class="login-button" type="submit" disabled>로그인</button>
+          </div>
+        </form>
+        <div class="flex-center extra-wrapper">
+          <a class="find-password">비밀번호를 잊으셨나요?</a>
         </div>
-        <div class="flex-center login-wrapper">
-          <input 
-          id="pw-input"
-          class="login-input" placeholder="비밀번호" />
-        </div>
-        <div class="flex-center button-wrapper">
-        <button id="push-button" class="login-button" disabled>로그인</button>
-      </div>
-      <div class="flex-center extra-wrapper">
-        <a class="find-password">비밀번호를 잊으셨나요?</a>
       </div>
     </div>
-    </div>
-  </body>
-  <script src="js/login.js"></script>
+</body>
+<script src="js/login.js"></script>
+
 </html>

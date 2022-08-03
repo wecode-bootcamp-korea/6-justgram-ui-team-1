@@ -1,3 +1,4 @@
+const loginFormById = document.getElementById("login-form");
 const emailInput = document.getElementById("email-input");
 const pwInput = document.getElementById("pw-input");
 const pushButton = document.getElementById("push-button");
@@ -13,3 +14,6 @@ function onInput(event) {
 
 emailInput.addEventListener("input", onInput);
 pwInput.addEventListener("input", onInput);
+loginFormById.addEventListener("submit", (e) => {
+
+});

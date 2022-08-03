@@ -33,7 +33,7 @@
 .contents-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin: 100px 10px;
 }
 
 .feed-header {
@@ -80,4 +80,23 @@
 .menu-size {
   width: 30px;
   height: 30px;
+}
+.comment-box {
+  border: none;
+}
+
+.upload-button {
+  color: blue;
+  border: none;
+  background-color: transparent;
+}
+
+.comment-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-align {
+  display: flex;
 }
