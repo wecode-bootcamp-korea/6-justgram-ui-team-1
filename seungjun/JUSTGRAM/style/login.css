@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(238, 237, 237);
+    margin: 0;
+  }
+  .login-container {
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-wrapper {
+    padding: 30px;
+  }
+  .logo-text {
+    font-family: "Lobster", cursive;
+    font-size: 48px;
+  }
+  .form-wrapper {
+  }
+  .login-wrapper {
+    border: 1px solid lightgray;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .login-input {
+    border: none;
+    width: 100%;
+    margin: 10px;
+    font-size: 16px;
+  }
+  .login-input:focus {
+    outline: none;
+  }
+  .button-wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+  .login-button {
+    width: 100%;
+    color: white;
+    background-color: rgb(205, 233, 244);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  .extra-wrapper {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .find-password {
+    color: rgb(48, 155, 232);
+  }
