@@ -1,3 +1,4 @@
+const loginFormById = document.getElementById("login-form");
 const inputIDById = document.getElementById("id-input");
 const inputPWById = document.getElementById("pw-input");
 const loginButtonById = document.getElementById("login-btn");
@@ -25,6 +26,7 @@ inputIDById.addEventListener("input", onInput);
 
 inputPWById.addEventListener("input", onInput);
 
-loginButtonById.addEventListener("click", () => {
-  // 로그인했을때 로직
+loginFormById.addEventListener("submit", (event) => {
+  event.preventDefault(); // 해당 기능을 꺼버리고
+  // 커스텀 로직
 });
