@@ -1,0 +1,26 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*left,right->width:100%로 설정해도 됨*/
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: aquamarine;
+}
+
+.headerIcons {
+  height: 24px;
+}
+
+.search {
+  height: 36px;
+  width: 268px;
+
+  border-radius: 8px;
+  border: none;
+  background-color: #efefef;
+}

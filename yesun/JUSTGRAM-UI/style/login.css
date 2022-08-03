@@ -1,0 +1,83 @@
+@font-face {
+  src: url("/fonts/Lobster-Regular.ttf");
+  font-family: "Lobster";
+}
+
+.bg {
+  background-color: #fafafa;
+  height: 100vh;
+  width: 100vw;
+  margin: 0%;
+
+  text-align: center;
+}
+
+#loginArea {
+  position: relative;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+
+  width: 350px;
+  height: 395.6px;
+
+  left: 50%;
+  top: 50%;
+  margin-top: -197.8px;
+  margin-left: -175px;
+}
+
+#logo {
+  font-family: "Lobster";
+  font-size: 50px;
+  margin-top: 35px;
+}
+
+#inputId {
+  width: 250px;
+  padding: 10px 8px;
+  background-color: #fafafa;
+
+  margin-bottom: 6px;
+
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+#inputPw {
+  width: 250px;
+  padding: 10px 8px;
+  background-color: #fafafa;
+
+  margin-bottom: 6px;
+
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+#loginBtn {
+  width: 268px;
+  height: 30px;
+  margin-top: 8px;
+
+  background-color: rgba(0, 149, 246, 0.3);
+
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+}
+
+/* .abled {
+  color: black;
+} */
+
+#losePw {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 12px;
+  color: #00376b;
+  margin-bottom: 20px;
+}
