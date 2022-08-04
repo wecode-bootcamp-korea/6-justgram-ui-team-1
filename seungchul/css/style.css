@@ -26,20 +26,20 @@ body {
 body .inner {
   width: 1180px;
   height: 100%;
-  padding: 100px;
   margin: 0 auto;
+  padding: 100px;
 }
 body .inner #login__page {
-  width: 500px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 100px;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px;
   background: #fff;
+  border: 1px solid #ccc;
 }
 body .inner #login__page .logo__text {
   width: 100%;
@@ -55,37 +55,37 @@ body .inner #login__page .input__box {
   margin-top: 50px;
 }
 body .inner #login__page .input__box input[type=text] {
+  display: block;
+  width: 300px;
+  height: 40px;
   margin: 0 auto;
   margin-bottom: 10px;
   padding-left: 10px;
+  background: rgb(247, 247, 247);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+body .inner #login__page .input__box input[type=password] {
   display: block;
   width: 300px;
   height: 40px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background: rgb(247, 247, 247);
-}
-body .inner #login__page .input__box input[type=password] {
   margin: 0 auto;
   margin-bottom: 20px;
   padding-left: 10px;
-  display: block;
-  width: 300px;
-  height: 40px;
+  background: rgb(247, 247, 247);
   border: 1px solid #ddd;
   border-radius: 5px;
-  background: rgb(247, 247, 247);
 }
 body .inner #login__page .login__btn button {
-  margin: 0 auto;
   width: 300px;
   height: 40px;
+  margin: 0 auto;
+  background: rgb(88, 168, 254);
   border: 1px solid #fff;
   border-radius: 5px;
-  background: rgb(88, 168, 254);
-  opacity: 1;
-  color: #fff;
   font: bold 20px "apple";
+  color: #fff;
+  opacity: 1;
 }
 body .inner #login__page .login__btn button:disabled {
   opacity: 0.5;
@@ -107,54 +107,54 @@ header {
   background: #fff;
 }
 header .inner {
-  width: 1180px;
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   bottom: 50px;
+  width: 1180px;
+  height: 100%;
 }
 header .inner .main_logo_box {
   width: 33%;
   height: 100%;
 }
 header .inner .main_logo_box .main_logo_Text {
-  width: 25%;
-  height: 100%;
-  font: bold 35px Lobster;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 25%;
+  height: 100%;
+  font: bold 35px Lobster;
   color: #000;
 }
 header .inner .main_logo_box .main_logo_Text .logo_Img {
+  position: relative;
+  top: 5px;
   width: 25px;
   height: 25px;
   margin-right: 20px;
-  position: relative;
-  top: 5px;
 }
 header .inner .main_search_box {
-  width: 33%;
-  height: 100%;
   display: flex;
   align-items: center;
+  width: 33%;
+  height: 100%;
 }
 header .inner .main_search_box #search {
   width: 100%;
   height: 40px;
   padding-left: 50px;
+  background: #eee;
   border-radius: 10px;
   border: none;
-  background: #eee;
 }
 header .inner .main_search_box .main_search_img {
-  width: 20px;
-  height: 20px;
   position: relative;
   right: 290px;
   bottom: 0px;
+  width: 20px;
+  height: 20px;
 }
 header .inner .main_menu_box {
   width: 33%;
@@ -182,11 +182,11 @@ header .inner .main_menu_box #menuWeb #gnb li img {
   background: #fff;
 }
 #feed .inner .main-feed-box .main_feed_user {
-  width: 100%;
-  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: 60px;
 }
 #feed .inner .main-feed-box .main_feed_user a {
   display: block;
@@ -219,16 +219,16 @@ header .inner .main_menu_box #menuWeb #gnb li img {
      object-fit: cover;
 }
 #feed .inner .main-feed-box .main_feed_menu {
-  width: 100%;
-  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: 50px;
 }
 #feed .inner .main-feed-box .main_feed_menu .likebutton {
+  background: #fff;
   border: none;
   cursor: pointer;
-  background: #fff;
 }
 #feed .inner .main-feed-box .main_feed_menu .likebutton img {
   width: 25px;
@@ -239,20 +239,20 @@ header .inner .main_menu_box #menuWeb #gnb li img {
   margin-left: 10px;
 }
 #feed .inner .main-feed-box .main_feed_liker {
-  width: 100%;
-  height: 50px;
   display: block;
   display: flex;
   align-items: center;
+  width: 100%;
+  height: 50px;
 }
 #feed .inner .main-feed-box .main_feed_liker .bold {
   font: bold 15px/1 "apple";
 }
 #feed .inner .main-feed-box .main_feed_liker a {
-  margin-left: 5px;
   display: block;
   display: flex;
   align-items: center;
+  margin-left: 5px;
   font: bold 15px/1 "apple";
   color: #000;
 }
@@ -265,7 +265,7 @@ header .inner .main_menu_box #menuWeb #gnb li img {
 }
 #feed .inner .main-feed-box .main_feed_content {
   width: 100%;
-  height: 100px;
+  height: 100%;
 }
 #feed .inner .main-feed-box .main_feed_content .uploade_time {
   margin-left: 15px;
@@ -286,10 +286,9 @@ header .inner .main_menu_box #menuWeb #gnb li img {
   color: #888;
 }
 #feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid {
-  margin-left: 15px;
-  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
+  margin-left: 15px;
 }
 #feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid a {
   margin-right: 10px;
@@ -303,8 +302,6 @@ header .inner .main_menu_box #menuWeb #gnb li img {
 #feed .inner .main-feed-box .main_feed_content .new_comment_set {
   margin-left: 15px;
   margin-bottom: 5px;
-  display: flex;
-  justify-content: space-between;
 }
 #feed .inner .main-feed-box .main_feed_content .new_comment_set a {
   font: bold 15px/1 "apple";
@@ -312,17 +309,19 @@ header .inner .main_menu_box #menuWeb #gnb li img {
 }
 #feed .inner .main-feed-box .main_feed_content .new_comment_set span {
   margin-right: 10px;
+  margin-bottom: 10px;
   font: 15px/1 "apple";
   color: #000;
 }
-#feed .inner .main-feed-box .main_feed_content .new_comment_set button {
+#feed .inner .main-feed-box .main_feed_content .new_comment_set .comments_like_btn {
+  float: right;
+  background: none;
   border: 0;
   outline: 0;
-  background: none;
 }
 #feed .inner .main-feed-box .main_feed_content .new_comment_set i {
-  font-size: 16px;
   margin-right: 20px;
+  font-size: 16px;
   cursor: pointer;
 }
 #feed .inner .main-feed-box .main_feed_comments {
@@ -345,14 +344,14 @@ header .inner .main_menu_box #menuWeb #gnb li img {
   height: 50px;
 }
 #feed .inner .main-feed-box .main_feed_comments .submit_box button {
-  background: rgba(204, 204, 204, 0);
-  font: 18px/1 "apple";
-  opacity: 1;
-  color: rgb(0, 134, 218);
-  border: none;
   position: relative;
   left: 94%;
   bottom: 65%;
+  background: rgba(204, 204, 204, 0);
+  border: none;
+  font: 18px/1 "apple";
+  color: rgb(0, 134, 218);
+  opacity: 1;
 }
 #feed .inner .main-feed-box .main_feed_comments .submit_box button:disabled {
   opacity: 0.5;
