@@ -9,4 +9,4 @@
 좀 더 가독성좋게 하고싶은데 일단 결과내느라 급급했네요 ㅠㅠ
 결과 이미지는 이렇습니다! 밑에 똑같은 포멧으로 게시물 2개 더 있어용
 
-<img src='yesun/readme_img/mission 3/미션3-2.png'>
+<img src='https://github.com/wecode-bootcamp-korea/6-justgram-ui-team-1/blob/feature/yesun/readme_img/mission3/%EB%AF%B8%EC%85%983-2.png?raw=true'>
