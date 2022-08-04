@@ -1,3 +1,4 @@
+const loginFormById = document.getElementById("login-form");
 const inputIDById = document.getElementById("id-input");
 const inputPWById = document.getElementById("pw-input");
 const loginButtonById = document.getElementById("login-btn");
@@ -6,6 +7,7 @@ loginButtonById.disabled = true; //버튼 비활성화
 function onInput() {
   const id = inputIDById.value;
   const pw = inputPWById.value;
+
   if (id.length > 1 && pw.length > 1) {
     //버튼을 활성화 하는 로직
     loginButtonById.style.backgroundColor = "#54b5f5";
@@ -20,9 +22,7 @@ function onInput() {
 }
 
 inputIDById.addEventListener("input", onInput);
-
 inputPWById.addEventListener("input", onInput);
-
-loginButtonById.addEventListener("click", () => {
-  //로그인했을때 로직
+loginFormById.addEventListener("submit", (event) => {
+  event.preventDefault();
 });
