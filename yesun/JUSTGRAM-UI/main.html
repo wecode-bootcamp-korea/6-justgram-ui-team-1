@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>justgram.main</title>
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/common.css" />
   </head>
@@ -12,14 +12,19 @@
     <header>
       <div class="topFixed flex">
         <!-- 아이콘, 로고, 검색창, 탐색, 하트, 마이 -->
-        <img
-          id="instaImage"
-          class="icons"
-          src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
-        />
+        <div class="flex">
+          <img
+            id="instaImage"
+            class="icons"
+            src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+          />
+          <p id="logoText">| justgram</p>
+        </div>
+
         <div class="searchZone">
           <input class="searchInput" placeholder="검색" />
         </div>
+
         <div class="iconZone">
           <img
             class="icons"
@@ -38,10 +43,9 @@
     </header>
 
     <div class="bg">
-      <!--피드 내용들-->
       <div class="feedContainer">
-        <div class="feed firstFeed">
-          <!--첫번째피드-->
+        <!--첫번째피드-->
+        <div class="feed">
           <div class="feedHeader">
             <div class="profileBox">
               <div class="box">
@@ -49,14 +53,17 @@
               </div>
               <div class="idText">yesun_justcoder</div>
             </div>
+
             <img
               class="viewMore"
               src="https://cdn-icons-png.flaticon.com/512/512/512142.png"
             />
           </div>
+
           <div>
             <img class="feedImg" src="./images/강릉바다.jpg" />
           </div>
+
           <div class="mainZone flex">
             <div class="mainIcons">
               <img class="feedIcons" src="./images/heart.png" />
@@ -65,6 +72,7 @@
             </div>
             <img class="feedIcons" src="./images/mark.png" />
           </div>
+
           <div class="feedText">
             <div class="likeProfile box">
               <img class="profile" src="./images/망고빙수.jpg" />
@@ -74,22 +82,26 @@
             <div class="feedLike">외 10명</div>
             <div class="whitespace">이 좋아합니다</div>
           </div>
+
           <div class="feedContent">
             <div class="feedText">
               <div class="feedTextId">yesun_justcoder</div>
               <div class="feedTextContent">강릉바다 너무 예뻐..S2</div>
             </div>
+
             <div class="feedText">
               <div class="feedTextId">Hi__justcoder</div>
               <div class="feedTextContent">나도 가고싶어ㅠㅠ</div>
             </div>
+
             <div class="feedText feedTime">40분전</div>
+
             <div class="feedText commentZone">댓글달기...</div>
           </div>
         </div>
 
+        <!--두번째피드-->
         <div class="feed">
-          <!--두번째피드-->
           <div class="feedHeader">
             <div class="profileBox">
               <div class="box">
@@ -97,14 +109,17 @@
               </div>
               <div class="idText">yesun_justcoder</div>
             </div>
+
             <img
               class="viewMore"
               src="https://cdn-icons-png.flaticon.com/512/512/512142.png"
             />
           </div>
+
           <div>
             <img class="feedImg" src="./images/강릉카페.jpg" />
           </div>
+
           <div class="mainZone flex">
             <div class="mainIcons">
               <img class="feedIcons" src="./images/heart.png" />
@@ -113,6 +128,7 @@
             </div>
             <img class="feedIcons" src="./images/mark.png" />
           </div>
+
           <div class="feedText">
             <div class="likeProfile box">
               <img class="profile" src="./images/망고빙수.jpg" />
@@ -122,6 +138,7 @@
             <div class="feedLike">외 10명</div>
             <div class="whitespace">이 좋아합니다</div>
           </div>
+
           <div class="feedContent">
             <div class="feedText">
               <div class="feedTextId">yesun_justcoder</div>
@@ -129,16 +146,18 @@
                 커피 맛집이라고해서 갔는데 알고보니 치케맛집이넹
               </div>
             </div>
+
             <div class="feedText">
               <div class="feedTextId">Hi__justcoder</div>
               <div class="feedTextContent">내꺼는..?!</div>
             </div>
             <div class="feedText feedTime">50분전</div>
+
             <div class="feedText commentZone">댓글달기...</div>
           </div>
         </div>
+        <!--세번째피드-->
         <div class="feed">
-          <!--세번째피드-->
           <div class="feedHeader">
             <div class="profileBox">
               <div class="box">
@@ -146,14 +165,17 @@
               </div>
               <div class="idText">yesun_justcoder</div>
             </div>
+
             <img
               class="viewMore"
               src="https://cdn-icons-png.flaticon.com/512/512/512142.png"
             />
           </div>
+
           <div>
             <img class="feedImg" src="./images/망고빙수.jpg" />
           </div>
+
           <div class="mainZone flex">
             <div class="mainIcons">
               <img class="feedIcons" src="./images/heart.png" />
@@ -162,6 +184,7 @@
             </div>
             <img class="feedIcons" src="./images/mark.png" />
           </div>
+
           <div class="feedText">
             <div class="likeProfile box">
               <img class="profile" src="./images/망고빙수.jpg" />
@@ -171,6 +194,7 @@
             <div class="feedLike">외 10명</div>
             <div class="whitespace">이 좋아합니다</div>
           </div>
+
           <div class="feedContent">
             <div class="feedText">
               <div class="feedTextId">yesun_justcoder</div>
@@ -181,10 +205,12 @@
               <div class="feedTextContent">살쪄 ㅋ</div>
             </div>
             <div class="feedText feedTime">1시간 전</div>
+
             <div class="feedText commentZone">댓글달기...</div>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="./js/main.js"></script>
 </html>
