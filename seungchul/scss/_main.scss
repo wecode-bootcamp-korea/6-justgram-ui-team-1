@@ -3,52 +3,52 @@ header {
 	height: 100px;
 	background: #fff;
 	.inner {
-		width: 1180px;
-		height: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		position: relative;
 		bottom: 50px;
+		width: 1180px;
+		height: 100%;
 		.main_logo_box {
 			width: 33%;
 			height: 100%;
 			.main_logo_Text {
-				width: 25%;
-				height: 100%;
-				font: bold 35px Lobster;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				width: 25%;
+				height: 100%;
+				font: bold 35px Lobster;
 				color: #000;
 				.logo_Img {
+					position: relative;
+					top: 5px;
 					width: 25px;
 					height: 25px;
 					margin-right: 20px;
-					position: relative;
-					top: 5px;
 				}
 			}
 		}
 		.main_search_box {
-			width: 33%;
-			height: 100%;
 			display: flex;
 			align-items: center;
+			width: 33%;
+			height: 100%;
 			#search {
 				width: 100%;
 				height: 40px;
 				padding-left: 50px;
+				background: #eee;
 				border-radius: 10px;
 				border: none;
-				background: #eee;
 			}
 			.main_search_img {
-				width: 20px;
-				height: 20px;
 				position: relative;
 				right: 290px;
 				bottom: 0px;
+				width: 20px;
+				height: 20px;
 			}
 		}
 		.main_menu_box {
@@ -81,11 +81,11 @@ header {
 			border: 1px solid #ccc;
 			background: #fff;
 			.main_feed_user {
-				width: 100%;
-				height: 60px;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				width: 100%;
+				height: 60px;
 				a {
 					display: block;
 					display: flex;
@@ -117,15 +117,15 @@ header {
 				}
 			}
 			.main_feed_menu {
-				width: 100%;
-				height: 50px;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				width: 100%;
+				height: 50px;
 				.likebutton {
+					background: #fff;
 					border: none;
 					cursor: pointer;
-					background: #fff;
 					img {
 						width: 25px;
 						height: 25px;
@@ -137,19 +137,19 @@ header {
 				}
 			}
 			.main_feed_liker {
-				width: 100%;
-				height: 50px;
 				display: block;
 				display: flex;
 				align-items: center;
+				width: 100%;
+				height: 50px;
 				.bold {
 					font: bold 15px/1 'apple';
 				}
 				a {
-					margin-left: 5px;
 					display: block;
 					display: flex;
 					align-items: center;
+					margin-left: 5px;
 					font: bold 15px/1 'apple';
 					color: #000;
 					.user-profile-picture {
@@ -183,10 +183,10 @@ header {
 					color: #888;
 				}
 				.main_feed_coment_userid {
-					margin-left: 15px;
-					margin-bottom: 5px;
 					display: flex;
 					justify-content: space-between;
+					margin-left: 15px;
+					margin-bottom: 5px;
 					a {
 						margin-right: 10px;
 						font: bold 15px/1 'apple';
@@ -198,11 +198,10 @@ header {
 					}
 				}
 				.new_comment_set {
-					
-					margin-left: 15px;
-					margin-bottom: 5px;
 					display: flex;
 					justify-content: space-between;
+					margin-left: 15px;
+					margin-bottom: 5px;
 					a {
 						font: bold 15px/1 'apple';
 						color: #000;
@@ -212,14 +211,14 @@ header {
 						font: 15px/1 'apple';
 						color: #000;
 					}
-					button{
+					button {
+						background: none;
 						border: 0;
 						outline: 0;
-						background: none;
 					}
 					i {
-						font-size: 16px;
 						margin-right: 20px;
+						font-size: 16px;
 						cursor: pointer;
 					}
 				}
@@ -242,14 +241,14 @@ header {
 					width: 100%;
 					height: 50px;
 					button {
-						background: rgba(204, 204, 204, 0);
-						font: 18px/1 'apple';
-						opacity: 1;
-						color: rgb(0, 134, 218);
-						border: none;
 						position: relative;
 						left: 94%;
 						bottom: 65%;
+						background: rgba(204, 204, 204, 0);
+						border: none;
+						font: 18px/1 'apple';
+						color: rgb(0, 134, 218);
+						opacity: 1;
 						&:disabled {
 							opacity: 0.5;
 						}
