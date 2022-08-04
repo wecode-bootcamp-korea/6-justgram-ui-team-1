@@ -1,55 +1,44 @@
 const inputComments = document.getElementsByClassName("input-comment");
 
-Array.from(inputComments).forEach(commentInput, index => {
-  commentInput.addEventListener("keyup", (event) => {
-    if(event.code === "Enter") {
+Array.from(inputComments).forEach((inputComment, index) => {
+  inputComment.addEventListener("keyup", (event) => {
+    if (event.code === "Enter") {
       writeComment(index);
     }
   });
 });
 
-
 const writeCommentButtons = document.getElementsByClassName("submit-comment");
 
-Array.from(writeCommentButtons).forEach((commentButtonWrite), index => {
-  commentButtonWrite.addEventListener("click", (e) => {
+Array.from(writeCommentButtons).forEach((writeCommentButton, index) => {
+  writeCommentButton.addEventListener("click", () => {
     writeComment(index);
   });
 });
 
-
 function writeComment(index) {
-  const commentInput = document.getElementsByClassName("input_comment")[index].value;
+  const commentInput = document.getElementsByClassName("input-comment")[index];
   const commentDiv = createcCommentDiv("hojee", commentInput.value);
-  const commentGroup = document.getElementsByClassName("comment-section")[index];
+  const commentGroup = document.getElementsByClassName("new-comment")[index];
   commentGroup.appendChild(commentDiv);
-  commentInput.value ="";
-};
-
+  commentInput.value = "";
+}
 
 function createcCommentDiv(writer, content) {
   const commentDiv = document.createElement("div");
-  
+
   const writerSpan = document.createElement("span");
   const writerText = document.createTextNode(writer);
-  writerSpan.appendChild(writerText); 
+  writerSpan.appendChild(writerText);
 
   const commentSpan = document.createElement("span");
   const commentText = document.createTextNode(content);
   commentSpan.appendChild(commentText);
-  
+
   commentDiv.append(writerSpan, " ", commentSpan);
 
   return commentDiv;
-
-};
-
-
-
-
-
-
-
+}
 
 /*
 const inputComments = document.querySelector(".input-comment");
