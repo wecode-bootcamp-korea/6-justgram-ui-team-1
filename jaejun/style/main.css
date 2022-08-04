@@ -43,7 +43,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
 }
 
 .feed-image {
@@ -56,7 +55,27 @@
 }
 
 .feed-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.padding-10 {
+  padding: 10px;
 }
 
 .feed-comment {
+}
+
+.feed-comment-like {}
+
+.feed-comment-list {}
+
+.feed-comment-write {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-write-input {
+  flex: 1;
 }
