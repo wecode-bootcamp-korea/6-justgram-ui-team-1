@@ -44,7 +44,6 @@ body .inner #login__page {
 body .inner #login__page .logo__text {
   width: 100%;
   height: 100%;
-  margin-bottom: 50px;
   text-align: center;
 }
 body .inner #login__page .logo__text a {
@@ -53,6 +52,7 @@ body .inner #login__page .logo__text a {
 }
 body .inner #login__page .input__box {
   width: 100%;
+  margin-top: 50px;
 }
 body .inner #login__page .input__box input[type=text] {
   margin: 0 auto;
@@ -175,7 +175,7 @@ header .inner .main_menu_box #menuWeb #gnb li img {
 #feed .inner {
   width: 1180px;
   height: 100%;
-  padding: 100px 200px;
+  padding: 25px 200px;
 }
 #feed .inner .main-feed-box {
   border: 1px solid #ccc;
@@ -288,10 +288,42 @@ header .inner .main_menu_box #menuWeb #gnb li img {
 #feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid {
   margin-left: 15px;
   margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 #feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid a {
+  margin-right: 10px;
   font: bold 15px/1 "apple";
   color: #000;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+#feed .inner .main-feed-box .main_feed_content .new_comment_set {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+#feed .inner .main-feed-box .main_feed_content .new_comment_set a {
+  font: bold 15px/1 "apple";
+  color: #000;
+}
+#feed .inner .main-feed-box .main_feed_content .new_comment_set span {
+  margin-right: 10px;
+  font: 15px/1 "apple";
+  color: #000;
+}
+#feed .inner .main-feed-box .main_feed_content .new_comment_set button {
+  border: 0;
+  outline: 0;
+  background: none;
+}
+#feed .inner .main-feed-box .main_feed_content .new_comment_set i {
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 #feed .inner .main-feed-box .main_feed_comments {
   width: 100%;
@@ -312,13 +344,16 @@ header .inner .main_menu_box #menuWeb #gnb li img {
   width: 100%;
   height: 50px;
 }
-#feed .inner .main-feed-box .main_feed_comments .submit_box input[type=submit] {
+#feed .inner .main-feed-box .main_feed_comments .submit_box button {
   background: rgba(204, 204, 204, 0);
   font: 18px/1 "apple";
-  opacity: 0.5;
+  opacity: 1;
   color: rgb(0, 134, 218);
   border: none;
   position: relative;
   left: 94%;
   bottom: 65%;
+}
+#feed .inner .main-feed-box .main_feed_comments .submit_box button:disabled {
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */

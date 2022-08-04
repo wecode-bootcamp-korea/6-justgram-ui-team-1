@@ -76,7 +76,7 @@ header {
 	.inner {
 		width: 1180px;
 		height: 100%;
-		padding: 100px 200px;
+		padding: 25px 200px;
 		.main-feed-box {
 			border: 1px solid #ccc;
 			background: #fff;
@@ -185,9 +185,42 @@ header {
 				.main_feed_coment_userid {
 					margin-left: 15px;
 					margin-bottom: 5px;
+					display: flex;
+					justify-content: space-between;
+					a {
+						margin-right: 10px;
+						font: bold 15px/1 'apple';
+						color: #000;
+					}
+					i {
+						margin-right: 20px;
+						cursor: pointer;
+					}
+				}
+				.new_comment_set {
+					
+					margin-left: 15px;
+					margin-bottom: 5px;
+					display: flex;
+					justify-content: space-between;
 					a {
 						font: bold 15px/1 'apple';
 						color: #000;
+					}
+					span {
+						margin-right: 10px;
+						font: 15px/1 'apple';
+						color: #000;
+					}
+					button{
+						border: 0;
+						outline: 0;
+						background: none;
+					}
+					i {
+						font-size: 16px;
+						margin-right: 20px;
+						cursor: pointer;
 					}
 				}
 			}
@@ -208,18 +241,20 @@ header {
 				.submit_box {
 					width: 100%;
 					height: 50px;
-					input[type='submit'] {
+					button {
 						background: rgba(204, 204, 204, 0);
 						font: 18px/1 'apple';
-						opacity: 0.5;
+						opacity: 1;
 						color: rgb(0, 134, 218);
 						border: none;
 						position: relative;
 						left: 94%;
 						bottom: 65%;
+						&:disabled {
+							opacity: 0.5;
+						}
 					}
 				}
-				
 			}
 		}
 	}

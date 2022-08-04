@@ -22,7 +22,7 @@ body{
 		.logo__text {
 			width: 100%;
 			height: 100%;
-			margin-bottom: 50px;
+
 			text-align: center;
 			a {
 				font: 50px Lobster;
@@ -31,6 +31,7 @@ body{
 		}
 		.input__box {
 			width: 100%;
+			margin-top: 50px;
 			input[type='text'] {
 				margin: 0 auto;
 				margin-bottom: 10px;
