@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>JUSTGRAM MAINPAGE</title>
+    <link rel="stylesheet" href="./style/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+
+  <body>
+    <!--header-->
+    <nav>
+      <div class="nav-container">
+        <div class="nav-logo">
+            <img class="logo-icon" src="./icon/logo.png" alt="logo_text">
+            <span class="justgram">| Justgram</span>
+        </div>
+        <input class="input-search" type="search" placeholder="검색">
+        <div class="nav-icon">
+          <img class="nav-icon-img" src="./icon/navigate.png" alt="navigate">
+          <img class="nav-icon-img" src="./icon/heart.png" alt="heart">
+          <img class="nav-icon-img" src="./icon/profile.png" alt="profile">
+        </div>
+      </div>
+    </nav>
+
+
+    <main>
+      <!-- main feed page -->
+      <div class="feeds">
+
+        <!-- feed #1 -->
+        <article>
+          <header>
+            <div class="article-container">
+              <img class="img-profile" src="./picture/profilepicture1.jpg" alt=" feed #1 profile pic">
+              <span class="userID text-bold">hojee</span>
+            </div>
+            <img class="icon-size icon-right" src="./icon/dotdotdot.png" alt="... button">
+          </header>
+          <div>
+            <img class="main-image" src="./picture/gorani.jpg" alt="feed #1 main pic">
+          </div>
+          <div class="icons-react">
+            <div class="icons-left">
+              <img class="icon-size" src="./icon/heart-filled.png" alt="filled heart">
+              <img class="icon-size" src="./icon/comment.png" alt="comment">
+              <img class="icon-size" src="./icon/export.png" alt="export">  
+            </div>
+            <img class="icon-size" src="./icon/bookmark.png" alt="bookmark">
+          </div>
+
+          <!-- liked people section -->
+          <div class="reaction">
+            <div class="liked-people">
+              <img class="liked-people-pic" src="./picture/profilepicture2.jpg" alt="holahola profile pic">
+              <p class="liked-people-names"><span class="id-bold">holahola</span>님 <span class="id-bold">외 134명</span>이 좋아합니다</p>
+            </div>
+            <div class="feed-info">
+              <p><span class="id-bold userID">hojee</span><span class="at-tag">@gorani_official</span></p>
+            </div>
+            <div class="comment-section">
+              <ul class="comments">
+                <li>
+                  <span><span class="id-bold userID">gorani</span class="comment-info">저 친구 소개좀</span>
+                  <img class="comment-heart" src="./icon/heart-filled.png" alt="filled heart">
+                </li>
+              </ul>
+
+              <!--space for new comments-->
+              <div class="new-comment">
+
+              </div>
+
+              <!-- comments section -->
+              <div class="time-log">
+                <span class="time-upload">12분 전</span>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+
+          <!-- comment input section-->
+          <div class="comment">
+            <input class="input-comment" type="text" placeholder="댓글 달기..." >
+            <button type="button" class="submit-comment">게시</button>
+          </div>
+        </article>
+
+        <!--feed 2-->
+        <article>
+          <header>
+            <div class="article-container">
+              <img class="img-profile" src="./picture/profilepicture3.jpg" alt="feed #2 profile pic">
+              <span class="userID point-span">heishojee</span>
+            </div>
+            <img class="icon-size icon-right" src="./icon/dotdotdot.png" alt="... button">
+          </header>
+          <div>
+            <img class="main-image" src="./picture/mainpicture2.jpg" alt="feed #2 main pic">
+          </div>
+          <div class="icons-react">
+            <div class="icons-left">
+              <img class="icon-size" src="./icon/heart-filled.png" alt="filled heart">
+              <img class="icon-size" src="./icon/comment.png" alt="comment">
+              <img class="icon-size" src="./icon/export.png" alt="export">  
+            </div>
+            <img class="icon-size" src="./icon/bookmark.png" alt="bookmark">
+          </div>
+
+
+          <!-- article text data -->
+          <div class="reaction">
+            <div class="liked-people">
+              <img class="liked-people-pic" src="./picture/profilepicture4.jpg" alt="heishojee 프로필 사진">
+              <p class="liked-people-names"><span class="id-bold">heishojee</span>님<span class="id-bold">외 130명</span>이 좋아합니다</p>
+            </div>
+            <div class="feed-info">
+              <p><span class="userID">heishojee</span>아이스크림~~~</p>
+            </div>
+            <div class="comment-section">
+              <ul class="comments">
+                <li>
+                  <span><span class="userID">theicecreamman</span>gimme that icecream</span>
+                  <img class="comment-heart" src="./icon/heart-filled.png" alt="filled heart">
+                </li> 
+              </ul>
+
+              <!--space for new comments-->
+              <div class="new-comment">
+
+              </div>
+
+              <!-- comments section -->
+              <div class="time-log">
+                <span class="time-upload">1시간 전</span>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+
+          <!--comment input section-->
+          <div class="comment">
+            <input id="input-comment" class="input-comment" type="text" placeholder="댓글 달기..." >
+            <button type="button" id="submit-comment" class="submit-comment">게시</button>
+          </div>
+        </article>
+
+
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
