@@ -18,12 +18,13 @@ const cmdUpload = document.getElementById("comment-upload");
 function writeComment() {
 
   const divtag = document.createElement("div");
-  divtag.textContent = "onhaeye"
+  divtag.textContent = "i_hate_cucumber"
   document.querySelector(".up-comment1").append(divtag);
 
   const divtag1 = document.createElement("div");
   divtag1.textContent = cmdBox.value;
   document.querySelector(".up-comment2").append(divtag1);
+
 
 };
 
