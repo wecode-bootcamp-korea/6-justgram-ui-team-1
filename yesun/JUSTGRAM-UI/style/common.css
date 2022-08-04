@@ -14,3 +14,7 @@ body {
 .whitespace {
   margin-right: 4px;
 }
+
+input:focus {
+  outline: none;
+}
