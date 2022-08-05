@@ -261,31 +261,4 @@
     </div>
   </body>
   <script src="./js/main.js"></script>
-  <script>
-    let comment_list;
-
-    fetch("./data/commentsData.json", { method: "GET" })
-      .then((res) => res.json())
-      .then((data) => {
-        comment_list = data;
-
-        comment_list.forEach((comment, index) => {
-          const liElement = document.createElement("li");
-          const userName = document.createElement("div");
-          const userComment = document.createElement("div");
-
-          const comments =
-            document.getElementsByClassName("commentList")[index];
-
-          userName.innerText = comment.userName;
-          userName.className = "feedTextId";
-          userComment.innerText = comment.content;
-          userComment.className = "feedTextContent";
-          liElement.className = "comment";
-
-          liElement.append(userName, userComment);
-          comments.append(liElement);
-        });
-      });
-  </script>
 </html>
