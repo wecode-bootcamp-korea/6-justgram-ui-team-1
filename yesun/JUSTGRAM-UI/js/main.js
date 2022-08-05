@@ -17,7 +17,7 @@ Array.from(commentWriteButton).forEach((value, index) => {
 //인풋에서 엔터치면 댓글달기
 Array.from(commentWriteInput).forEach((value, index) => {
   commentWriteInput[index].addEventListener("keyup", (e) => {
-    if (e.keyCode === 13) {
+    if (e.keyCode === 13 && commentWriteInput[index].value) {
       const li = document.createElement("li");
       const commentUserId = document.createElement("div");
       const div = document.createElement("div");
@@ -37,6 +37,9 @@ Array.from(commentWriteInput).forEach((value, index) => {
       commentList[index].appendChild(li);
 
       commentWriteInput[index].value = "";
+
+      commentWriteButton[index].classList.remove("comment-btn");
+      commentWriteButton[index].disabled = true;
     }
   });
 });
