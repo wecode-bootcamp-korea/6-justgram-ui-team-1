@@ -1,0 +1,86 @@
+// font : Lobster
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background: #eee;
+.inner {
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 100px;
+	#login__page {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		width: 500px;
+		height: 100%;
+        margin: 0 auto;
+		padding: 100px;
+        background: #fff;
+		border: 1px solid #ccc;
+		.logo__text {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			a {
+				font: 50px Lobster;
+                color: #000;
+			}
+		}
+		.input__box {
+			width: 100%;
+			margin-top: 50px;
+			input[type='text'] {
+				display: block;
+				width: 300px;
+				height: 40px;
+				margin: 0 auto;
+				margin-bottom: 10px;
+				padding-left: 10px;
+				background: rgb(247, 247, 247);
+				border: 1px solid #ddd;
+                border-radius: 5px;
+			}
+			input[type='password'] {
+				display: block;
+				width: 300px;
+				height: 40px;
+				margin: 0 auto;
+				margin-bottom: 20px;
+				padding-left: 10px;
+				background: rgb(247, 247, 247);
+				border: 1px solid #ddd;
+                border-radius: 5px;
+			}
+		}
+		.login__btn {
+			button{
+				width: 300px;
+				height: 40px;
+				margin: 0 auto;
+				background: rgb(88, 168, 254);
+				border: 1px solid #fff;
+                border-radius: 5px;
+				font: bold 20px 'apple';
+				color: #fff;
+				opacity: 1;
+				// cursor: pointer;
+				&:disabled{
+					opacity: 0.5;
+				}
+			}
+		}
+		.pws__lost {
+			width: 100%;
+            margin-top: 100px;
+            text-align: center;
+			a {
+				text-align: center;
+				font: 15px 'apple';
+                color: navy;
+			}
+		}
+	}
+}
+}
