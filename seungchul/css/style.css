@@ -290,13 +290,29 @@ header .inner .main_menu_box #menuWeb #gnb li img {
   justify-content: space-between;
   margin-left: 15px;
 }
-#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid a {
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid .comment_set {
+  width: 100%;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid .comment_set a {
   margin-right: 10px;
   font: bold 15px/1 "apple";
   color: #000;
 }
-#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid i {
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid .comment_set span {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font: 15px/1 "apple";
+  color: #000;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid .comment_set .comments_like_btn {
+  float: right;
+  background: none;
+  border: 0;
+  outline: 0;
+}
+#feed .inner .main-feed-box .main_feed_content .main_feed_coment_userid .comment_set i {
   margin-right: 20px;
+  font-size: 16px;
   cursor: pointer;
 }
 #feed .inner .main-feed-box .main_feed_content .new_comment_set {

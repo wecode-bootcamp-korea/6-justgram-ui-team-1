@@ -186,16 +186,31 @@ header {
 					display: flex;
 					justify-content: space-between;
 					margin-left: 15px;
-					a {
+					.comment_set{
+						width: 100%;
+					 a{
 						margin-right: 10px;
 						font: bold 15px/1 'apple';
 						color: #000;
 					}
+					span {
+						margin-right: 10px;
+						margin-bottom: 10px;
+						font: 15px/1 'apple';
+						color: #000;
+					}
+					.comments_like_btn{
+						float: right;
+						background: none;
+						border: 0;
+						outline: 0;
+					}
 					i {
 						margin-right: 20px;
+						font-size: 16px;
 						cursor: pointer;
 					}
-				}
+				}}
 				.new_comment_set {
 					margin-left: 15px;
 					margin-bottom: 5px;
