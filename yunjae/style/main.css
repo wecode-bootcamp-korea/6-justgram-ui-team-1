@@ -1,0 +1,93 @@
+.to-do {
+  border: 1px solid black;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-image {
+  width: 32px;
+  height: 32px;
+}
+
+.custom-margin-left {
+  margin-left: 10px;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.header-text {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.contents-wrapper {
+  margin-top: 80px;
+}
+
+.feed-container {
+  width: 700px;
+  margin-bottom: 10px;
+}
+
+.feed-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feed-image {
+  height: 500px;
+}
+
+.feed-img {
+  width: 100%;
+  height: 100%;
+}
+
+.feed-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.feed-comment {
+}
+
+.feed-comment-like {
+}
+
+.feed-comment-list {
+}
+
+.feed-comment-write {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-write-input {
+  flex: 1;
+}
+
+.comment-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
