@@ -1,0 +1,211 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*left,right->width:100%로 설정해도 됨*/
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topFixed {
+  display: flex;
+  width: 975px;
+  height: 60px;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logoText {
+  font-family: "Lobster";
+  font-size: 22px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  height: 24px;
+  margin: 0px 10px;
+}
+
+.searchZone {
+  height: 36px;
+  width: 268px;
+  flex-direction: row;
+}
+
+.searchInput {
+  position: relative;
+  height: 36px;
+  width: 202px;
+  padding: 2px 16px 0px 50px;
+
+  border: none;
+  border-radius: 8px;
+  background-color: #efefef;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/141/141944.png);
+  background-size: 20px;
+  background-position: 17px 9px;
+  background-repeat: no-repeat;
+  color: #8e8e8e;
+  font-size: 16px;
+}
+
+.feedContainer {
+  width: 470px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: rgb(246, 246, 246);
+}
+
+.feed {
+  width: 470px;
+  margin-bottom: 12px;
+
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.feedHeader {
+  height: 20px;
+  padding: 18px;
+
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.box {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+.profileBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.idText {
+  margin: 6px 0px 0px 15px;
+}
+
+.viewMore {
+  height: 18px;
+}
+
+.feedImg {
+  width: 470px;
+}
+
+.mainZone {
+  padding: 6px 6px 4px 13px;
+}
+
+.feedIcons {
+  height: 23px;
+  margin: 0px 6px;
+}
+
+.likeProfile {
+  margin-right: 9px;
+}
+
+.feedText {
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 18px;
+  padding-right: 10px;
+}
+
+.feedLike {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.feedTextId {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+}
+
+.commentList {
+  padding-left: 18px;
+  margin-top: 5px;
+}
+
+.feedTime {
+  margin-top: 4px;
+  color: #8e8e8e;
+  font-size: 14px;
+  border-bottom: 1px;
+  border-width: 1px;
+}
+
+.comment-input {
+  width: 330px;
+  padding-top: 15px;
+  padding-bottom: 4px;
+  border: none;
+  color: #8e8e8e;
+  font-size: 15px;
+}
+
+.comment-zone {
+  display: flex;
+  justify-content: space-between;
+  width: 470px;
+  margin: 10px 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(219, 219, 219);
+}
+
+button {
+  /* 게시버튼비활성화 */
+  width: 55px;
+  height: 37px;
+  padding-top: 10px;
+  border: none;
+  background-color: white;
+  color: rgb(113, 191, 255);
+}
+
+.comment-btn {
+  /* 게시버튼활성화 */
+  width: 55px;
+  height: 37px;
+  padding-top: 10px;
+  border: none;
+  background-color: white;
+  color: rgb(0, 102, 255);
+  font-weight: bold;
+}
