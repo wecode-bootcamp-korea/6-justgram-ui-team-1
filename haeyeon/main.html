@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <meta charset="UTF-8" />
   <title>justgram</title>
   <link rel="stylesheet" href="style/main.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -9,7 +10,6 @@
 </head>
 
 <body>
-
   <div class="header-wrapper">
     <div class="vertical-center">
       <img class="logo-size custom-margin-left" src="image/instagram.png" alt="mainIcon" />
@@ -29,7 +29,12 @@
     </div>
   </div>
 
+
+  <!-- 피드시작 -->
   <div class="contents-wrapper">
+
+
+    <!-- 1번째 피드 -->
     <div class="feed-container to-do">
       <div class="feed-header">
         <div class="vertical-center">
@@ -38,7 +43,6 @@
         </div>
         <div>...</div>
       </div>
-      <!--  -->
       <div>
         <img class="image-size" src="image/sea.jpeg" alt="feedimage" />
       </div>
@@ -55,31 +59,105 @@
       </div>
 
       <div class="feed-comment">
-        <div class="custom-margin-left custom-margin-botton"> i_hate_cucumber님 외 10명이 좋아합니다.</div>
-        <div class="custom-margin-left custom-margin-botton">
-          <div class="comment-align">
-            <div class="up-comment1 custom-margin-left">
-              <div> alldayhong </div>
-            </div>
-            <div class="up-comment2">
-              <ul id="comment2"></ul>
-            </div>
-          </div>
+        <div class="feed-like"> i_hate_cucumber님 외 10명이 좋아합니다.</div>
+        <div class="feed-comment-list">
+          <div> alldayhong 재밌는놀이 </div>
         </div>
-
-
-        <div class="comment-wrapper">
-          <div class="custom-margin-left custom-margin-botton">
-            <input id="cmd-box" class="comment-box" type="text" placeholder="댓글" />
-          </div>
-          <div class="custom-margin-left custom-margin-botton"><input id="comment-upload" class="upload-button"
-              type="button" value="게시" /></div>
-        </div>
+        <div class="time-table"> 35분전</div>
       </div>
 
 
-
+      <div class="comment-wrapper">
+        <input class="comment-write-box" type="text" placeholder="댓글" />
+        <button class="comment-post-button" type="button">게시</button>
+      </div>
     </div>
+
+
+    <!-- 2번째 피드 -->
+    <div class="feed-container to-do">
+      <div class="feed-header">
+        <div class="vertical-center">
+          <img class="profile" src="image/profile.jpeg" alt="profileimage">
+          <span class="id-text">onhaeye</span>
+        </div>
+        <div>...</div>
+      </div>
+      <div>
+        <img class="image-size" src="image/snoopy.jpeg" alt="feedimage" />
+      </div>
+
+      <div class="feed-menu">
+        <div>
+          <img class="menu-size" src="image/heart-3.png" alt="likeicon" />
+          <img class="menu-size" src="image/chat.png" alt="commenticon" />
+          <img class="menu-size" src="image/send-2.png" alt="dmicon" />
+        </div>
+        <div>
+          <img class="menu-size" src="image/ribbon.png" alt="saveicon" />
+        </div>
+      </div>
+
+      <div class="feed-comment">
+        <div class="feed-like"> i_hate_cucumber님 외 10명이 좋아합니다.</div>
+        <div class="feed-comment-list">
+          <div> alldayhong 재밌는놀이 </div>
+        </div>
+        <div class="time-table"> 35분전</div>
+      </div>
+
+
+      <div class="comment-wrapper">
+        <input class="comment-write-box" type="text" placeholder="댓글" />
+        <button class="comment-post-button" type="button">게시</button>
+      </div>
+    </div>
+
+
+
+    <!-- 3번째 피드 -->
+    <div class="feed-container to-do">
+      <div class="feed-header">
+        <div class="vertical-center">
+          <img class="profile" src="image/profile.jpeg" alt="profileimage">
+          <span class="id-text">onhaeye</span>
+        </div>
+        <div>...</div>
+      </div>
+      <div>
+        <img class="image-size" src="image/sunset.jpeg" alt="feedimage" />
+      </div>
+
+      <div class="feed-menu">
+        <div>
+          <img class="menu-size" src="image/heart-3.png" alt="likeicon" />
+          <img class="menu-size" src="image/chat.png" alt="commenticon" />
+          <img class="menu-size" src="image/send-2.png" alt="dmicon" />
+        </div>
+        <div>
+          <img class="menu-size" src="image/ribbon.png" alt="saveicon" />
+        </div>
+      </div>
+
+      <div class="feed-comment">
+        <div class="feed-like"> i_hate_cucumber님 외 10명이 좋아합니다.</div>
+        <div class="feed-comment-list">
+          <div> alldayhong 재밌는놀이 </div>
+        </div>
+        <div class="time-table"> 35분전</div>
+      </div>
+
+
+      <div class="comment-wrapper">
+        <input class="comment-write-box" type="text" placeholder="댓글" />
+        <button class="comment-post-button" type="button">게시</button>
+      </div>
+    </div>
+
+
+
+
+
   </div>
 
 </body>
